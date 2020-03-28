@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmi:id="_ICQiwH8VEeicSbX2DHYi6w" name="EcosistemaDeNegocio" ecorePath="/org.unipampa.startpampa/model/org.unipampa.startpampa.ecore">
+  <rootEClass href="http://www.example.org/startpampa#//EcosistemaDeNegocio"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_ICWpYH8VEeicSbX2DHYi6w" name="Control descricaoAnaliseDoSetor">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_ICWpYX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//EcosistemaDeNegocio/descricaoAnaliseDoSetor"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_ICWpYn8VEeicSbX2DHYi6w" name="Control mercadoPotencial">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_ICWpY38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//EcosistemaDeNegocio/mercadoPotencial"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_ICWpZH8VEeicSbX2DHYi6w" name="Control concorrente">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_ICWpZX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//EcosistemaDeNegocio/concorrente"/>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

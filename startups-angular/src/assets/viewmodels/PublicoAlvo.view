@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmi:id="_IC3mwH8VEeicSbX2DHYi6w" name="PublicoAlvo" ecorePath="/org.unipampa.startpampa/model/org.unipampa.startpampa.ecore">
+  <rootEClass href="http://www.example.org/startpampa#//PublicoAlvo"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IC9tYH8VEeicSbX2DHYi6w" name="Control idade">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IC9tYX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//PublicoAlvo/idade"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IC9tYn8VEeicSbX2DHYi6w" name="Control genero">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IC9tY38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//PublicoAlvo/genero"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IC9tZH8VEeicSbX2DHYi6w" name="Control escolaridade">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IC9tZX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//PublicoAlvo/escolaridade"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IC9tZn8VEeicSbX2DHYi6w" name="Control regiao">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IC9tZ38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//PublicoAlvo/regiao"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IC9taH8VEeicSbX2DHYi6w" name="Control atitude">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IC9taX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//PublicoAlvo/atitude"/>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

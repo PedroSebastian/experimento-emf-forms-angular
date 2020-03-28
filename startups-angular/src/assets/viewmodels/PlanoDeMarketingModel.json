@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "posicionamento": {
+      "type": "string"
+    },
+    "publicoalvo": {
+      "type": "object",
+      "properties": {
+        "idade": {
+          "type": "integer"
+        },
+        "genero": {
+          "type": "string",
+          "enum": [
+            "TODOS",
+            "MASCULINO",
+            "FEMININO",
+            "LGBT"
+          ]
+        },
+        "escolaridade": {
+          "type": "string",
+          "enum": [
+            "TODOS",
+            "SECUNDARIO",
+            "GRADUADO",
+            "POSGRADUADO"
+          ]
+        },
+        "regiao": {
+          "type": "string"
+        },
+        "atitude": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "publicoalvo"
+  ]
+}

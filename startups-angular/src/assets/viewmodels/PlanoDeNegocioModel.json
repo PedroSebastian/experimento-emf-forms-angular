@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "nomeDoProduto": {
+      "type": "string"
+    },
+    "tituloDoProjeto": {
+      "type": "string"
+    },
+    "dataDeInicio": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "receita": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "ANUNCIOS",
+              "AFILIADOS",
+              "TRANSACIONAL",
+              "ASSINATURAS",
+              "VENDAS"
+            ]
+          },
+          "descricaoDaReceita": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "proposta": {
+      "type": "object",
+      "properties": {
+        "descricaoDaInovacao": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "proposta"
+  ]
+}

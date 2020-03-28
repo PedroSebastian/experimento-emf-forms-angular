@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "ANUNCIOS",
+        "AFILIADOS",
+        "TRANSACIONAL",
+        "ASSINATURAS",
+        "VENDAS"
+      ]
+    },
+    "descricaoDaReceita": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

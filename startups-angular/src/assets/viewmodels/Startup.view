@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmi:id="_H9EgwH8VEeicSbX2DHYi6w" name="Startup" ecorePath="/org.unipampa.startpampa/model/org.unipampa.startpampa.ecore">
+  <rootEClass href="http://www.example.org/startpampa#//Startup"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3wH8VEeicSbX2DHYi6w" name="Control nome">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3wX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//Startup/nome"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3wn8VEeicSbX2DHYi6w" name="Control descricao">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3w38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//Startup/descricao"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3zn8VEeicSbX2DHYi6w" name="Control planodemarketing">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3z38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Startup/planodemarketing"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I30H8VEeicSbX2DHYi6w" name="Control investimento">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I30X8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Startup/investimento"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3zH8VEeicSbX2DHYi6w" name="Control organizacional">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3zX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Startup/organizacional"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3yn8VEeicSbX2DHYi6w" name="Control implantacao">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3y38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Startup/implantacao"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3yH8VEeicSbX2DHYi6w" name="Control analiseeconomica">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3yX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Startup/analiseeconomica"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3xn8VEeicSbX2DHYi6w" name="Control ecosistemadenegocio">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3x38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Startup/ecosistemadenegocio"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H-I3xH8VEeicSbX2DHYi6w" name="Control planodenegocio">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H-I3xX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Startup/planodenegocio"/>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

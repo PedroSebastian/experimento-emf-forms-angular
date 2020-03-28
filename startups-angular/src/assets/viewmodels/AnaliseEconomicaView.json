@@ -1,0 +1,40 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Data De Inicio",
+      "scope": "#/properties/dataDeInicio"
+    },
+    {
+      "type": "Control",
+      "label": "Equipe",
+      "scope": "#/properties/equipe"
+    },
+    {
+      "type": "Control",
+      "label": "Faturamento",
+      "scope": "#/properties/faturamento"
+    },
+    {
+      "type": "Control",
+      "label": "Despesasadministrativas",
+      "scope": "#/properties/despesasadministrativas"
+    },
+    {
+      "type": "Control",
+      "label": "Treinamento",
+      "scope": "#/properties/treinamento"
+    },
+    {
+      "type": "Control",
+      "label": "Manuntencao",
+      "scope": "#/properties/manuntencao"
+    },
+    {
+      "type": "Control",
+      "label": "Viagem",
+      "scope": "#/properties/viagem"
+    }
+  ]
+}

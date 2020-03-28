@@ -1,0 +1,5 @@
+{
+  "type": "Control",
+  "label": "Descricao Da Inovacao",
+  "scope": "#/properties/descricaoDaInovacao"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Localizacao",
+      "scope": "#/properties/localizacao"
+    },
+    {
+      "type": "Control",
+      "label": "Socios",
+      "scope": "#/properties/socios"
+    },
+    {
+      "type": "Control",
+      "label": "Socio",
+      "scope": "#/properties/socio"
+    }
+  ]
+}

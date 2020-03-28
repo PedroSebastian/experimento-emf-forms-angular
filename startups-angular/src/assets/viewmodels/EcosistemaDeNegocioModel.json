@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "descricaoAnaliseDoSetor": {
+      "type": "string"
+    },
+    "mercadoPotencial": {
+      "type": "string"
+    },
+    "concorrente": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "siteDoConcorrente": {
+            "type": "string"
+          },
+          "pontosFracos": {
+            "type": "string"
+          },
+          "diferenciaisCompetitivos": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

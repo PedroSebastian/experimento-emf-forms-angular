@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "dataDoRecurso": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valor": {
+      "type": "number"
+    },
+    "descricao": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

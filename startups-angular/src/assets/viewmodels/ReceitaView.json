@@ -1,0 +1,15 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Tipo",
+      "scope": "#/properties/tipo"
+    },
+    {
+      "type": "Control",
+      "label": "Descricao Da Receita",
+      "scope": "#/properties/descricaoDaReceita"
+    }
+  ]
+}

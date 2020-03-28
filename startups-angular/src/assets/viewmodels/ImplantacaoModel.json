@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "dataPrevisao": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "versao": {
+      "type": "string"
+    },
+    "decricaoDaVersao": {
+      "type": "string"
+    },
+    "risco": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ameaca": {
+            "type": "string"
+          },
+          "descricao": {
+            "type": "string"
+          },
+          "impedimento": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

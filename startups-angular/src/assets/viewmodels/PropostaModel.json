@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "descricaoDaInovacao": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

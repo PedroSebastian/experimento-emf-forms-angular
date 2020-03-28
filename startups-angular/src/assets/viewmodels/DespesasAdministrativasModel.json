@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "agua": {
+      "type": "number"
+    },
+    "luz": {
+      "type": "number"
+    },
+    "telefone": {
+      "type": "number"
+    },
+    "aluguel": {
+      "type": "number"
+    },
+    "internet": {
+      "type": "number"
+    },
+    "marketingPublicidade": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": false
+}

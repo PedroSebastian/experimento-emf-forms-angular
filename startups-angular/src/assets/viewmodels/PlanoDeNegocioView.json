@@ -1,0 +1,30 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Nome Do Produto",
+      "scope": "#/properties/nomeDoProduto"
+    },
+    {
+      "type": "Control",
+      "label": "Titulo Do Projeto",
+      "scope": "#/properties/tituloDoProjeto"
+    },
+    {
+      "type": "Control",
+      "label": "Data De Inicio",
+      "scope": "#/properties/dataDeInicio"
+    },
+    {
+      "type": "Control",
+      "label": "Receita",
+      "scope": "#/properties/receita"
+    },
+    {
+      "type": "Control",
+      "label": "Proposta",
+      "scope": "#/properties/proposta"
+    }
+  ]
+}

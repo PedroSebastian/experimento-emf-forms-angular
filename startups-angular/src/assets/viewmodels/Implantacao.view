@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmi:id="_IE18sH8VEeicSbX2DHYi6w" name="Implantacao" ecorePath="/org.unipampa.startpampa/model/org.unipampa.startpampa.ecore">
+  <rootEClass href="http://www.example.org/startpampa#//Implantacao"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IFJesH8VEeicSbX2DHYi6w" name="Control dataPrevisao">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IFKFwH8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//Implantacao/dataPrevisao"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IFKFwX8VEeicSbX2DHYi6w" name="Control versao">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IFKFwn8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//Implantacao/versao"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IFKFw38VEeicSbX2DHYi6w" name="Control decricaoDaVersao">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IFKFxH8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//Implantacao/decricaoDaVersao"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IFKFxX8VEeicSbX2DHYi6w" name="Control risco">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IFKFxn8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//Implantacao/risco"/>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

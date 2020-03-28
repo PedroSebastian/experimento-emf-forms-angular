@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmi:id="_IDM98H8VEeicSbX2DHYi6w" name="DespesasAdministrativas" ecorePath="/org.unipampa.startpampa/model/org.unipampa.startpampa.ecore">
+  <rootEClass href="http://www.example.org/startpampa#//DespesasAdministrativas"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IDYkIH8VEeicSbX2DHYi6w" name="Control agua">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IDYkIX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//DespesasAdministrativas/agua"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IDYkIn8VEeicSbX2DHYi6w" name="Control luz">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IDYkI38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//DespesasAdministrativas/luz"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IDYkJH8VEeicSbX2DHYi6w" name="Control telefone">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IDYkJX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//DespesasAdministrativas/telefone"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IDYkJn8VEeicSbX2DHYi6w" name="Control aluguel">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IDYkJ38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//DespesasAdministrativas/aluguel"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IDYkKH8VEeicSbX2DHYi6w" name="Control internet">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IDYkKX8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//DespesasAdministrativas/internet"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_IDYkKn8VEeicSbX2DHYi6w" name="Control marketingPublicidade">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_IDYkK38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//DespesasAdministrativas/marketingPublicidade"/>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

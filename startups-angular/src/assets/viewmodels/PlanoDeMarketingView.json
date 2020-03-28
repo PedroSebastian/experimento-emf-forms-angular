@@ -1,0 +1,15 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Posicionamento",
+      "scope": "#/properties/posicionamento"
+    },
+    {
+      "type": "Control",
+      "label": "Publicoalvo",
+      "scope": "#/properties/publicoalvo"
+    }
+  ]
+}

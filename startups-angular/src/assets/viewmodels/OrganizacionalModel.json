@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "localizacao": {
+      "type": "string"
+    },
+    "socios": {
+      "type": "boolean"
+    },
+    "socio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "cpf": {
+            "type": "string"
+          },
+          "participacao": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "socio"
+  ]
+}

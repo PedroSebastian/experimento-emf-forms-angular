@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "cpf": {
+      "type": "string"
+    },
+    "participacao": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": false
+}

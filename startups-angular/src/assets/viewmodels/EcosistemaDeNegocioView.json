@@ -1,0 +1,20 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Descricao Analise Do Setor",
+      "scope": "#/properties/descricaoAnaliseDoSetor"
+    },
+    {
+      "type": "Control",
+      "label": "Mercado Potencial",
+      "scope": "#/properties/mercadoPotencial"
+    },
+    {
+      "type": "Control",
+      "label": "Concorrente",
+      "scope": "#/properties/concorrente"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Nome",
+      "scope": "#/properties/nome"
+    },
+    {
+      "type": "Control",
+      "label": "Site Do Concorrente",
+      "scope": "#/properties/siteDoConcorrente"
+    },
+    {
+      "type": "Control",
+      "label": "Pontos Fracos",
+      "scope": "#/properties/pontosFracos"
+    },
+    {
+      "type": "Control",
+      "label": "Diferenciais Competitivos",
+      "scope": "#/properties/diferenciaisCompetitivos"
+    }
+  ]
+}

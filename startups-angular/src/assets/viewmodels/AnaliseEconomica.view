@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmi:id="_H_TVYH8VEeicSbX2DHYi6w" name="AnaliseEconomica" ecorePath="/org.unipampa.startpampa/model/org.unipampa.startpampa.ecore">
+  <rootEClass href="http://www.example.org/startpampa#//AnaliseEconomica"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H_Y08H8VEeicSbX2DHYi6w" name="Control dataDeInicio">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H_Y08X8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/startpampa#//AnaliseEconomica/dataDeInicio"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H_Y08n8VEeicSbX2DHYi6w" name="Control equipe">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H_Y0838VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//AnaliseEconomica/equipe"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H_Y09H8VEeicSbX2DHYi6w" name="Control faturamento">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H_Y09X8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//AnaliseEconomica/faturamento"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H_Y09n8VEeicSbX2DHYi6w" name="Control despesasadministrativas">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H_Y0938VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//AnaliseEconomica/despesasadministrativas"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H_Y0-H8VEeicSbX2DHYi6w" name="Control treinamento">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H_Y0-X8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//AnaliseEconomica/treinamento"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H_Y0-n8VEeicSbX2DHYi6w" name="Control manuntencao">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H_Y0-38VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//AnaliseEconomica/manuntencao"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_H_Y0_H8VEeicSbX2DHYi6w" name="Control viagem">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_H_Y0_X8VEeicSbX2DHYi6w">
+      <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/startpampa#//AnaliseEconomica/viagem"/>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

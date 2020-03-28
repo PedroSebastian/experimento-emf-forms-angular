@@ -1,0 +1,30 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Idade",
+      "scope": "#/properties/idade"
+    },
+    {
+      "type": "Control",
+      "label": "Genero",
+      "scope": "#/properties/genero"
+    },
+    {
+      "type": "Control",
+      "label": "Escolaridade",
+      "scope": "#/properties/escolaridade"
+    },
+    {
+      "type": "Control",
+      "label": "Regiao",
+      "scope": "#/properties/regiao"
+    },
+    {
+      "type": "Control",
+      "label": "Atitude",
+      "scope": "#/properties/atitude"
+    }
+  ]
+}

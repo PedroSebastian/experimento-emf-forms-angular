@@ -1,0 +1,20 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Nome",
+      "scope": "#/properties/nome"
+    },
+    {
+      "type": "Control",
+      "label": "Funcao",
+      "scope": "#/properties/funcao"
+    },
+    {
+      "type": "Control",
+      "label": "Custo",
+      "scope": "#/properties/custo"
+    }
+  ]
+}

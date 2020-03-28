@@ -1,0 +1,50 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Nome",
+      "scope": "#/properties/nome"
+    },
+    {
+      "type": "Control",
+      "label": "Descricao",
+      "scope": "#/properties/descricao"
+    },
+    {
+      "type": "Control",
+      "label": "Planodenegocio",
+      "scope": "#/properties/planodenegocio"
+    },
+    {
+      "type": "Control",
+      "label": "Ecosistemadenegocio",
+      "scope": "#/properties/ecosistemadenegocio"
+    },
+    {
+      "type": "Control",
+      "label": "Analiseeconomica",
+      "scope": "#/properties/analiseeconomica"
+    },
+    {
+      "type": "Control",
+      "label": "Implantacao",
+      "scope": "#/properties/implantacao"
+    },
+    {
+      "type": "Control",
+      "label": "Organizacional",
+      "scope": "#/properties/organizacional"
+    },
+    {
+      "type": "Control",
+      "label": "Planodemarketing",
+      "scope": "#/properties/planodemarketing"
+    },
+    {
+      "type": "Control",
+      "label": "Investimento",
+      "scope": "#/properties/investimento"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "planodenegocio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nomeDoProduto": {
+            "type": "string"
+          },
+          "tituloDoProjeto": {
+            "type": "string"
+          },
+          "dataDeInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "receita": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tipo": {
+                  "type": "string",
+                  "enum": [
+                    "ANUNCIOS",
+                    "AFILIADOS",
+                    "TRANSACIONAL",
+                    "ASSINATURAS",
+                    "VENDAS"
+                  ]
+                },
+                "descricaoDaReceita": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "proposta": {
+            "type": "object",
+            "properties": {
+              "descricaoDaInovacao": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "proposta"
+        ]
+      }
+    },
+    "ecosistemadenegocio": {
+      "type": "object",
+      "properties": {
+        "descricaoAnaliseDoSetor": {
+          "type": "string"
+        },
+        "mercadoPotencial": {
+          "type": "string"
+        },
+        "concorrente": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nome": {
+                "type": "string"
+              },
+              "siteDoConcorrente": {
+                "type": "string"
+              },
+              "pontosFracos": {
+                "type": "string"
+              },
+              "diferenciaisCompetitivos": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "analiseeconomica": {
+      "type": "object",
+      "properties": {
+        "dataDeInicio": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "equipe": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nome": {
+                "type": "string"
+              },
+              "funcao": {
+                "type": "string"
+              },
+              "custo": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "faturamento": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dataDoRecurso": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "valor": {
+                "type": "number"
+              },
+              "descricao": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "despesasadministrativas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "agua": {
+                "type": "number"
+              },
+              "luz": {
+                "type": "number"
+              },
+              "telefone": {
+                "type": "number"
+              },
+              "aluguel": {
+                "type": "number"
+              },
+              "internet": {
+                "type": "number"
+              },
+              "marketingPublicidade": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "treinamento": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "descricao": {
+                "type": "string"
+              },
+              "data": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "valor": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "manuntencao": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "descricao": {
+                "type": "string"
+              },
+              "data": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "valor": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "viagem": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "descricao": {
+                "type": "string"
+              },
+              "data": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "valor": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "implantacao": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dataPrevisao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "versao": {
+            "type": "string"
+          },
+          "decricaoDaVersao": {
+            "type": "string"
+          },
+          "risco": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ameaca": {
+                  "type": "string"
+                },
+                "descricao": {
+                  "type": "string"
+                },
+                "impedimento": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "organizacional": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "localizacao": {
+            "type": "string"
+          },
+          "socios": {
+            "type": "boolean"
+          },
+          "socio": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "nome": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "string"
+                },
+                "participacao": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "socio"
+        ]
+      }
+    },
+    "planodemarketing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "posicionamento": {
+            "type": "string"
+          },
+          "publicoalvo": {
+            "type": "object",
+            "properties": {
+              "idade": {
+                "type": "integer"
+              },
+              "genero": {
+                "type": "string",
+                "enum": [
+                  "TODOS",
+                  "MASCULINO",
+                  "FEMININO",
+                  "LGBT"
+                ]
+              },
+              "escolaridade": {
+                "type": "string",
+                "enum": [
+                  "TODOS",
+                  "SECUNDARIO",
+                  "GRADUADO",
+                  "POSGRADUADO"
+                ]
+              },
+              "regiao": {
+                "type": "string"
+              },
+              "atitude": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "publicoalvo"
+        ]
+      }
+    },
+    "investimento": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "payback": {
+            "type": "string"
+          },
+          "valorDoInvestimentoMinimo": {
+            "type": "number"
+          },
+          "tamanhoDaCota": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "ecosistemadenegocio",
+    "analiseeconomica"
+  ]
+}

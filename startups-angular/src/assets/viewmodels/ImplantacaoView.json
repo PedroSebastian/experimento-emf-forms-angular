@@ -1,0 +1,25 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Data Previsao",
+      "scope": "#/properties/dataPrevisao"
+    },
+    {
+      "type": "Control",
+      "label": "Versao",
+      "scope": "#/properties/versao"
+    },
+    {
+      "type": "Control",
+      "label": "Decricao Da Versao",
+      "scope": "#/properties/decricaoDaVersao"
+    },
+    {
+      "type": "Control",
+      "label": "Risco",
+      "scope": "#/properties/risco"
+    }
+  ]
+}

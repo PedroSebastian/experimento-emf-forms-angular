@@ -1,0 +1,35 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Agua",
+      "scope": "#/properties/agua"
+    },
+    {
+      "type": "Control",
+      "label": "Luz",
+      "scope": "#/properties/luz"
+    },
+    {
+      "type": "Control",
+      "label": "Telefone",
+      "scope": "#/properties/telefone"
+    },
+    {
+      "type": "Control",
+      "label": "Aluguel",
+      "scope": "#/properties/aluguel"
+    },
+    {
+      "type": "Control",
+      "label": "Internet",
+      "scope": "#/properties/internet"
+    },
+    {
+      "type": "Control",
+      "label": "Marketing Publicidade",
+      "scope": "#/properties/marketingPublicidade"
+    }
+  ]
+}
